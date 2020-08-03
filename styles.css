@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.timezone, 
+.temp {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.degree {
+    margin: 10px;
+}
+.temp {
+    flex-direction: column;
+}
+
+/* Color Palette */
+/* Background styles */
+/* Color Palette */
+/* Background styles */
+body {
+    background: radial-gradient(circle closest-side at 50px 50px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 40px 60px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 60px 60px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 50px 70px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 150px 165px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 140px 175px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 160px 175px, #fb8b24 3px, transparent 0), 
+    radial-gradient(circle closest-side at 150px 185px, #fb8b24 3px, transparent 0), 
+    radial-gradient(ellipse closest-side at 50px 60px, #f9a734 18px, transparent 0), 
+    radial-gradient(ellipse closest-side at 150px 175px, #f9a734 18px, transparent 0), 
+    radial-gradient(circle closest-side at 30px 40px, #f9d8d4 15px, transparent 0), 
+    radial-gradient(circle closest-side at 40px 35px, #36964c 15px, transparent 0), 
+    radial-gradient(circle closest-side at 70px 40px, #f9d8d4 15px, transparent 0), 
+    radial-gradient(circle closest-side at 60px 35px, #286e38 15px, transparent 0), 
+    radial-gradient(circle closest-side at 130px 155px, #f9d8d4 15px, transparent 0), 
+    radial-gradient(circle closest-side at 140px 150px, #36964c 15px, transparent 0), 
+    radial-gradient(circle at 170px 155px, #f9d8d4 15px, transparent 0), 
+    radial-gradient(circle at 160px 150px, #286e38 15px, transparent 0);
+   /* Pineapple details */
+   /* Pineapple base */
+   /* Pineapple leafs */
+    background-color: #f9d8d4;
+    background-size: 180px 210px;
+    animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+}
+/* Animation */
+@keyframes animatedBackground {
+    from {
+        background-position: 0 50%;
+   }
+    to {
+        background-position: 0 0;
+   }
+}
